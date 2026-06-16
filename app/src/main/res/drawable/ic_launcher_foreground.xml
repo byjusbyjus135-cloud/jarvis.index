@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer primary circular containment casing -->
+    <group
+        android:translateX="0"
+        android:translateY="0">
+        
+        <!-- Outer ring -->
+        <path
+            android:pathData="M54,54m-38,0a38,38 0,1 1,76 0a38,38 0,1 1,-76 0"
+            android:strokeColor="#1F00E5FF"
+            android:strokeWidth="1.5"
+            android:fillColor="#00000000" />
+
+        <!-- Segmented reactor sectors -->
+        <path
+            android:pathData="M54,54m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0"
+            android:strokeColor="#00E5FF"
+            android:strokeWidth="3.5"
+            android:strokeLineCap="round"
+            android:dashWidth="18dp"
+            android:dashGap="12dp"
+            android:fillColor="#00000000" />
+
+        <!-- Inner containment core casing -->
+        <path
+            android:pathData="M54,54m-16,0a16,16 0,1 1,32 0a16,16 0,1 1,-32 0"
+            android:strokeColor="#00B0FF"
+            android:strokeWidth="2"
+            android:fillColor="#00000000" />
+
+        <!-- Ultimate hot power core -->
+        <path
+            android:pathData="M54,54m-8,0a8,8 0,1 1,16 0a8,8 0,1 1,-16 0"
+            android:fillColor="#FFFFFF" />
+
+        <!-- Concentric micro core ring -->
+        <path
+            android:pathData="M54,54m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0"
+            android:strokeColor="#00E5FF"
+            android:strokeWidth="1"
+            android:fillColor="#00000000" />
+
+        <!-- Channel alignment core indicators (crosshairs for technical weight) -->
+        <path
+            android:pathData="M54,12 L54,20 M54,88 L54,96 M12,54 L20,54 M88,54 L96,54"
+            android:strokeColor="#00E5FF"
+            android:strokeWidth="2"
+            android:strokeLineCap="round" />
+    </group>
+</vector>
